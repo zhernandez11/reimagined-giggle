@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-int i = 10;
+int i = 1000000;
 while(i >= 1){
     cout << i << "\n";
     i--;

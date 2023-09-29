@@ -15,7 +15,6 @@ int main(){
         cin >> price;
         total += price;
         item++;
-
     }
     cout << "Total price of " << n << " items is $" << total << ".\n";
 }
