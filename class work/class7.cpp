@@ -1,10 +1,15 @@
 /*
-Create a C++ program that uses a `do-while` loop to repeatedly ask the user for a positive integer until they enter a negative number.
- Keep track of how many positive integers were entered and display that count at the end.
+Develop a program that uses a do-while loop to keep asking the user for a password until they enter the correct one.
 */
 #include<iostream>
 using namespace std;
 
 int main(){
-    
+    string correctPass = "c++";
+    string enteredPass;
+    do{
+        cout << "Please enter the password:";
+        cin >> enteredPass;
+    }while(enteredPass != correctPass);
+    cout << "You entered the correct password.\n";
 }
