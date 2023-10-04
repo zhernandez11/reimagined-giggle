@@ -4,12 +4,18 @@
 using namespace std;
 
 int main(){
-    int count = 0;
-    int num;
-    while (count < 5){
-        cout << "Enter number " << count + 1 << ":";
-        cin >> num;
-        count++;
+    int x1 = -1;
+    int x2 = 0;
+    bool ascending = true;
+    int counter = 1;
+    while (counter <= 5){
+        x1 = x2;
+        cout << "enter next number: ";
+        cin >> x2;
+        if (x1 > x2){
+            ascending = false;
+        }
+        counter++;
     }
-    cout << num << "\n";
+    cout << "Ascending is " << ascending << "\n";
 }
