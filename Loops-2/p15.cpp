@@ -5,9 +5,9 @@ using namespace std;
 int main() {
     int x;
     cin >> x;
-    int i;
-    for (int i = 1; i <= x; ){
-        cout << i << endl;
-        i = i * 2;
+    int res = 1;
+    for (int i = 0; i < 5; i++){
+        cout << res << endl;
+        res *= x;
     }
 }
