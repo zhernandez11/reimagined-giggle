@@ -23,5 +23,5 @@ int main(){
     if (wrd.length() > lngwrd.length()){
         lngwrd = wrd;
     }
-    cout << lngwrd << endl;
+    cout << lngwrd << " " << lngwrd.length() << endl;
 }
